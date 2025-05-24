@@ -1,0 +1,71 @@
+body{
+    background-color: rgba(218, 215, 204, 44);
+    font-family: 'Inknut Antiqua';
+    font-style: normal;
+    color: #D9BD82;
+    text-shadow: 0px 4px 80px #0D0C0C;
+    font-size: 10px;
+    display: flex;
+    flex-direction: column;
+}
+a{
+    font-family: 'Inknut Antiqua';
+    font-style: normal;
+    color: #D9BD82;
+    text-shadow: 0px 4px 80px #0D0C0C;
+    font-size: 10px;
+    text-decoration: none;
+}
+h1{
+    font-size: 12px;
+    /* box-shadow: inset 0px 0px 10px rgba(0,0,0,0.5); */
+}
+
+.container{
+    background-image:url(../assets/images/image\ 4.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 170px;
+    height: 170px;
+    margin: 0 auto;
+    display: inline-flex;
+    flex-direction: row;
+    /* justify-content:center; */
+    /* gap: 10px; */
+    position: relative;
+    padding: 10px;
+}
+/* .cnt-flex-item{
+    display:inline-flex;
+    flex-direction: column;
+} */
+/* .hd-flex-item{
+    margin: 0;
+} */
+ p{
+    margin-top: 0;
+    font-size: 8px;
+ }
+ header{
+     display: flex;
+    flex-direction: column;
+ }
+ .my-foto{
+    width: 80px;
+    height: 86px;
+    border-radius: 5px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 40);
+ }
+ main{
+    transform: translate(20%, 10%);
+ }
+ ul{
+    padding: 0;
+    list-style: none;
+ }
+ li{
+    
+    padding: 5px;
+ }
+
+
