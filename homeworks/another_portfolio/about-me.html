@@ -3,45 +3,56 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inknut+Antiqua&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
     <title>About</title>
   </head>
   <body>
-    <header class="cnt-flex-item">
-      <p class="hd-flex-item hd-name">Nastassia Bialova</p>
-      <p class="hd-flex-item">Frontend developer</p>
-      <nav class="hd-flex-item">
-        <ul>
-          <li>
-            <a href="./index.html">Home</a>
-          </li>
-          <li>
-            <h1>About me</h1>
-          </li>
-          <li>
-            <a href="./services.html">Services</a>
-          </li>
-          <li>
-            <a href="./projects.html">Projects</a>
-          </li>
-          <li>
-            <a href="./contact-me.html">Contact me</a>
-          </li>
-        </ul>
-      </nav>
-    </header>
-    <main>
-      <section class="about-me">
-        <div>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum,
-          soluta labore. Dolores, consequuntur iusto eos repudiandae saepe
-          obcaecati ipsam quo corporis natus, quaerat fuga quidem, eaque labore
-          enim consequatur quasi?
-        </div>
-      </section>
-    </main>
-    <footer>
-      <p>&copy Nastassia Bialova. All Rights Reserved</p>
-      <a href="#">Terms and Conditions</a>
-    </footer>
+    <div class="container">
+      <div class="inner-container">
+        <header class="header cnt-flex-item">
+          <p class="hd-flex-item hd-name">Nastassia Bialova</p>
+          <p class="hd-flex-item">Frontend developer</p>
+          <nav class="nav hd-flex-item">
+            <ul class="nav-list">
+              <li class="nav-item">
+                <a href="./index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <h1>About me</h1>
+              </li>
+              <li class="nav-item">
+                <a href="./services.html">Services</a>
+              </li>
+              <li class="nav-item">
+                <a href="./projects.html">Projects</a>
+              </li>
+              <li class="nav-item">
+                <a href="./contact-me.html">Contact me</a>
+              </li>
+            </ul>
+          </nav>
+        </header>
+        <main class="main cnt-flex-item">
+          <section class="content">
+            <div>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Voluptatum, soluta labore. Dolores, consequuntur iusto eos
+              repudiandae saepe obcaecati ipsam quo corporis natus, quaerat fuga
+              quidem, eaque labore enim consequatur quasi?
+            </div>
+          </section>
+        </main>
+      </div>
+      <footer class="footer">
+        <p class="footer-item">&copy Nastassia Bialova. All Rights Reserved</p>
+        <a class="footer-item" href="#">Terms and Conditions</a>
+      </footer>
+    </div>
   </body>
 </html>
