@@ -20,7 +20,8 @@ a, h1{
 }
 .hd-name{
     margin-top: 40px;
-    font-size: 40px;
+    margin-bottom: 5px;
+    font-size: 35px;
     /* box-shadow: inset 0px 0px 10px rgba(0,0,0,0.5); */
 }
 
@@ -54,13 +55,13 @@ a, h1{
     flex-direction: column;
  }
  .my-foto{
-    width: 200px;
-    height: 230px;
+    width: 250px;
+    height: 280px;
     border-radius: 5px;
     box-shadow: 10px 10px 10px rgba(0, 0, 0, 40);
  }
- main{
-    transform: translate(20%, 10%);
+ .content{
+    transform: translate(30%, 20%);
  }
  ul{
     padding: 0;
