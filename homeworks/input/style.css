@@ -1,0 +1,38 @@
+:root {
+    ---primary-color: #c5e8f1;
+    ---secondary-color:#a7e8fa;
+}
+
+.inputs{
+    display:flex;
+    height: 100px;
+    gap: 10px;
+}
+
+.inputs-item{
+    display: inline-block;
+    margin: auto 10px;
+}
+.input-primary{
+    outline: var(---primary-color) solid 3px;
+}
+.input-secondary{
+    outline: var(---secondary-color) solid 2px;
+}
+.input-small {
+    font-size: 0.5rem;
+    padding: 3px;
+}
+.input-medium  {
+    font-size: 1rem;
+    padding: 4px;
+}
+.input-large {
+    font-size: 1.5rem;
+    padding: 5px;
+}
+.input{
+    &:focus-visible{
+    outline: #91bcc8 solid 3.5px;
+}
+}
