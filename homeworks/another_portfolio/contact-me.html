@@ -17,7 +17,7 @@
       <div class="inner-container">
         <header class="header cnt-flex-item">
           <p class="hd-flex-item hd-name">Nastassia Bialova</p>
-          <p class="hd-flex-item">Frontend developer</p>
+          <p class="hd-flex-item italic">Frontend developer</p>
           <nav class="nav hd-flex-item">
             <ul class="nav-list">
               <li class="nav-item">
@@ -40,26 +40,46 @@
         </header>
         <main class="main cnt-flex-item">
           <section class="content contact-me-content text-content">
+            <img
+              class="contact-img"
+              src="assets/images/undraw_contact-us_kcoa.svg"
+            />
             <form
+              class="contact-me-form"
               action="https://formsubmit.co/nastjabelova0@gmail.com"
               method="POST"
             >
-              <label for="name">Name</label>
-              <input
-                id="name"
-                name="name"
-                placeholder="place your name"
-                minlength="2"
-              />
-              <label for="email">Email</label>
-              <input id="email" type="email" name="email" placeholder="email" />
-              <label for="text">Text</label>
-              <textarea
-                id="text"
-                name="text"
-                placeholder="type your comment"
-              ></textarea>
-              <button>Submit</button>
+              <div class="contact-form-item">
+                <label for="name">Name</label>
+                <input
+                  class="input"
+                  id="name"
+                  name="name"
+                  placeholder="place your name"
+                  minlength="2"
+                />
+              </div>
+              <div class="contact-form-item">
+                <label for="email">Email</label>
+                <input
+                  class="input"
+                  id="email"
+                  type="email"
+                  name="email"
+                  placeholder="your.email@gmail.com"
+                />
+              </div>
+              <div class="contact-form-item">
+                <label for="text">Message</label>
+                <textarea
+                  class="textarea"
+                  rows="4"
+                  id="text"
+                  name="text"
+                  placeholder="type your comment"
+                ></textarea>
+              </div>
+              <button class="contact-form-item contact-submit">Submit</button>
             </form>
           </section>
         </main>
