@@ -362,4 +362,12 @@ h1{
     text-decoration: none;
 
  }
+ .project-card-link {
+     &:hover {
+        .project-description{
+            text-shadow: var(---text-shadow);
+        }
+        
+    }
+ }
  
