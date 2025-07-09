@@ -14,10 +14,10 @@
     margin: auto 10px;
 }
 .input-primary{
-    outline: var(---primary-color) solid 3px;
+    border: var(---primary-color) solid 3px;
 }
 .input-secondary{
-    outline: var(---secondary-color) solid 2px;
+    border: var(---secondary-color) solid 2px;
 }
 .input-small {
     font-size: 0.5rem;
@@ -33,6 +33,6 @@
 }
 .input{
     &:focus-visible{
-    outline: #91bcc8 solid 3.5px;
+    outline: #91bcc8 solid 3px;
 }
 }
